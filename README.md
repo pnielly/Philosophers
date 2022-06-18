@@ -1,5 +1,11 @@
 # Philosophers
-The basics of threading a process.
+The basics of threading a process, through <a href="https://en.wikipedia.org/wiki/Dining_philosophers_problem">the dining philosophers problem</a>.
+N philosophers are around a table with N forks. They need two forks to eat.</br>
+If they don't eat before <time_to_die>, they die. </br>
+After they ate for <time_to_eat>, they sleep for <time_to_sleep> </br>
+If you want, you can stop the simulation once each philosophers ate a certain number of times (last arg, optionnal)
+
+Each philosopher is a thread.
 
 ## Installation
 
@@ -21,4 +27,4 @@ Once the binary is compiled, type:
 ```
 
 ## Subject
-[ft_transcendance.pdf](https://github.com/pnielly/ft_transcendance/files/8929224/ft_transcendance.pdf)
+
