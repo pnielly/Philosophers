@@ -72,11 +72,11 @@ int	main(int ac, char **av)
 
 	if (error_parsing(ac, av))
 	{
-		printf("Normal usage :\n\t\t %s./philo_one %s#_of_philosophers%s ",
+		printf("Normal usage :\n\t\t %s./[binary] %s#_of_philosophers%s ",
 			CYAN, GREEN, NO_COLOR);
 		printf("%stime_to_die %stime_to_eat %stime_to_sleep%s ",
 			YELLOW, RED, PURPLE, NO_COLOR);
-		printf("%s[#_times_each_philosopher_must_eat]%s",
+		printf("%s[#_times_each_philosopher_must_eat]%s\n",
 			WHITE, NO_COLOR);
 		return (0);
 	}
