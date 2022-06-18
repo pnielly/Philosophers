@@ -12,12 +12,12 @@ Each philosopher is a process.
 In the root of the repo, type:
 
 ```bash
-#Solving with threads
+#Solving with mutex
 cd philo && make
 ```
 or
 ```bash
-#Solving with mutexes and semaphores
+#Solving with semaphores
 cd philo_bonus && make
 ```
 
