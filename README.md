@@ -28,5 +28,9 @@ Once the binary is compiled, type:
 ./[binary] #_of_philosophers time_to_die time_to_eat time_to_sleep [#_times_each_philosopher_must_eat]
 ```
 
-## Subject
+## Additional feature
+For more logs during the execution of the binary, use this command to compile:
+```bash
+make more
+```
 
